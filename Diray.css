@@ -1,0 +1,132 @@
+body { 
+    background-color: black;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: orange; 
+    padding: 0.5rem 3%;
+    font-size: 1.5rem;
+  }
+  
+  main {
+    background-color: black;
+    color: gray;
+    font-size: 135%;
+    padding: 0.5rem 1%;
+  }
+  
+  main h1 {
+    background-color: orange; 
+    margin: 0;
+    font-size: 115%;
+    padding: 1.5rem 2%;
+    color:black;
+  }
+  
+  main h2 {
+    background-color: black; 
+    margin: 0;
+    font-size: 115%;
+    padding: 1.5rem 2%;
+    color:orange;
+  }
+  
+  main p {
+    background-color: black; 
+    margin: 0;
+    font-size: 100%;
+    padding: 0.5rem 2%;
+    color:grey;
+    line-height:2em;
+  }
+  
+  main ul {  
+    padding: 0.5rem 1%;
+    list-style: none;
+  }
+  
+  main ul li {
+    display: inline;
+    padding: 0.5rem 1%;
+    font-size: 118%;
+  }
+  
+  main a {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  main a:link { color: white; }/*link original color*/
+  
+  main a:visited { color: orange; }/*link visitied color*/
+  
+  main a:hover { 
+    color: grey;
+  }
+  
+  main div { 
+    width:100px;
+    height:100px;
+    background: #ccc;
+  }
+  
+  
+  main div:honver p { 
+    display:block;
+  }
+  
+  main div {
+    height:100px;
+    width: 100px;
+    background-color: white;
+  
+  }
+  
+  /*The guidance menu*/
+  nav {
+    background-color: black;
+    color: gray;
+    font-size: 130%;
+    float:right;
+    padding: 0.5rem 2%;
+  }
+  
+  nav p {
+    color:orange; 
+  }
+  
+  nav li {
+    list-style:none; 
+  }
+  /*hidden menu*/
+  li a{
+    color:orange;    
+  }
+  #menu ul{
+    display:none; 
+    
+  }
+  #menu>li:hover ul{
+    display:block;       
+  }
+  /*----------------------------*/
+
+  figure {
+    padding: 30%;
+  }
+  
+  footer {
+    background-color: orange;
+    padding: 0.5rem 3%;
+  }
+  
+  @media screen and (min-width: 500px) {
+  #wrapper {
+    width: 100%;
+    background-color: rgb(235,245,255);
+    margin: 0 auto;
+  }
+  
+  body { min-width: 320px; }
+  }

@@ -1,0 +1,126 @@
+body { 
+  background-color: black;
+  margin: 0 auto;
+}
+
+header {
+  background-color: orange; 
+  padding: 0.5rem 3%;
+  font-size: 1.5rem;
+}
+
+main {
+  background-color: black;
+  color: black;
+  font-size: 135%;
+  padding: 0.5rem 1%;
+}
+
+main h1 {
+  background-color: orange; 
+  margin: 0;
+  font-size: 115%;
+  padding: 1.5rem 2%;
+  color:black;
+}
+
+main ul {  
+  padding: 0.5rem 1%;
+  list-style: none;
+}
+
+main ul li {
+  display: inline;
+  padding: 0.5rem 1%;
+  font-size: 118%;
+}
+
+main a {
+  text-decoration: none;
+  outline: none;
+}
+
+main a:link { color: white; }
+
+main a:visited { color: orange; }
+
+main a:hover { 
+  color: grey;
+}
+
+table {
+  background-color: black;
+  margin: 0;
+  font-size: 95%;
+  padding: 0.5rem 1.8%;
+  color:orange;
+  line-height: 2em;
+}
+
+form {
+  background-color: black; 
+  margin: 0;
+  font-size: 125%;
+  padding: 0.5rem 3%;
+  color: orange;
+  line-height: 2em;
+}
+
+textarea {
+  background-color: black; 
+  margin: 0;
+  font-size: 60%;
+  padding: 0.5rem 3%;
+  color: orange;
+}
+
+/*The guidance menu*/
+nav {
+  background-color: black;
+  color: gray;
+  font-size: 130%;
+  float:right;
+  padding: 0.5rem 2%;
+}
+
+nav p {
+  color:orange; 
+}
+
+nav li {
+  list-style:none; 
+}
+/*hidden menu*/
+li a{
+  color:orange;    
+}
+#menu ul{
+  display:none; 
+  
+}
+#menu>li:hover ul{
+  display:block;       
+}
+/*----------------------------*/
+
+figure {
+  position: static;
+}
+
+footer {
+  background-color: orange;
+  padding: 0.5rem 3%;
+}
+
+@media screen and (min-width: 500px) {
+#wrapper {
+  width: 100%;
+  background-color: rgb(235,245,255);
+  margin: 0 auto;
+}
+
+body { min-width: 320px; }
+}
+
+
+
